@@ -1,0 +1,187 @@
+
+.headermain{
+  display:flex;
+  border:5px;
+}
+.headlogopng{
+  width:100px;
+  height:100px;
+
+}
+
+.header_insidetxt{
+  font-size: 24px;
+  font-weight: bold;
+  color: #a63d2f ;
+}
+.headermain{
+  display:flex;
+  justify-content: space-around;
+}
+.rightside_image{
+  width:100px;
+  height:100px;
+  box-shadow: 7px;
+}
+.headersmall_text{
+  font size:18px;
+  font-weight: normal;
+}
+.header_txt{
+  text-align: center;
+  padding:0.5px;
+}
+.subbut{
+  border-radius: 4px;
+  padding:5px;
+  background-color: #51a9e9;
+}
+.smart_txt{
+  text-align: center;
+  color:#151B54;
+  font-weight: bolder;
+  font-size: 42px;
+}
+.form_label{
+  font-size: 24px;
+  font-weight: bolder;
+
+}
+
+.bottom_nav{
+  background-color: "#9f1e08";
+}
+.first_st_block{
+  width:40px;
+  height:80px;
+}
+
+.aaaa:hover{
+  background-color:  #511e08;
+}
+.popular_search{
+  margin-left: 0px;
+  font-size: 22px;
+
+}
+.col{
+  display:inline-block;
+}
+.row{
+  background-color: #e9ffef;
+  display:inline-block;
+}
+.pop_img{
+  height:200px;
+  width:200px;
+
+}
+.pop_txt{
+  font-size: 18px;
+  color:blue;
+}
+.pop_txt:hover{
+  background-color:#abf7b1;
+}
+.pop_img:hover{
+opacity: 0.3;
+}
+.pop_img{
+  border:1px solid;
+}
+.container{
+  width:inherit;
+}
+.bullet_img{
+  float:left;
+  align-items: baseline;
+}
+.table_bottom{
+  background-color:  #9f1e08;
+}
+.navpanel{
+
+  background-color: #9f1e08;
+  padding:5px;
+  overflow: hidden;
+  position:relative;
+}
+.infofoot{
+  display:flex;
+  font-size: 15px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.btn{
+
+}
+.phone_img{
+  float:left;
+  height:30px;
+  width:30px;
+
+}
+.whatsapp_img{
+  float:left;
+  height:30px;
+  width:30px;
+}
+
+.navlist{
+  display:inline-grid;
+  padding:10px 12px;
+  text-decoration: none;
+  color:white;
+  text-align:center;
+  font-size: 16px;
+  margin:3px;
+
+}
+
+.navbar-brand{
+  color:white;
+}
+.formfill{
+  padding:20px;
+  margin:auto;
+}
+.navlist:hover{
+  background-color: #511e08;
+}
+.smartlook{
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.main_image{
+  width:600px;
+  height:400px;
+
+}
+.language_form{
+  font-size: 42px;
+  font-weight: bolder;
+  padding:150px ;
+
+
+}
+.slideshow{
+  padding: 30px;
+}
+.english{
+  font-size: 18px;
+  font-weight:lighter;
+}
+
+
+@media (min-width:1024px){
+  .smart_look{
+    background-image: url("transport assests/main bus.png");
+    width:2000px;
+    height:2000px;
+    position: absolute;
+    background-repeat: no-repeat;
+
+    z-index:-1;
+  }
+}

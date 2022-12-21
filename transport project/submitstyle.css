@@ -1,0 +1,23 @@
+.navpanel{
+  height:74px;
+}
+.table{
+  width:60%;
+}
+.innertable{
+  height:30px;
+}
+.head__table{
+  height:40px;
+  align-items: center;
+}
+.body__table{
+  height:60px;
+}
+.main__table{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
